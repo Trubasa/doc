@@ -25,7 +25,7 @@
 ```
 > 使用组件标签
 
-将组件标签写入页面，==ref==为组件注册一个对象（可理解为id），==:==为组件接受的参数，==@== 为组件的回调事件
+将组件标签写入页面， **ref** 为组件注册一个对象（可理解为id），**:** 为组件接受的参数， **@** 为组件的回调事件
 ```html
 <div id="app">
 
@@ -48,8 +48,8 @@
 
 初始化Vue， **el** 为初始化的标签对象， **data** 里为vue实例的数据， **method** 存放Vue实例的方法
 
-以下面代码为例，可使用`app.isShow=true`直接修改Vue实例里的数据，也可`<strong>app.showPicManager()</strong>`调用app实例里的方法，
-==app.$refs.pictureManager.show()== 可调用到组件实例里的方法
+以下面代码为例，可使用 **app.isShow=true** 直接修改Vue实例里的数据，也可 **app.showPicManager()** 调用app实例里的方法，
+**app.$refs.pictureManager.show()** 可调用到组件实例里的方法
 ```javascript
 var app=new Vue({
     el:"#app",
