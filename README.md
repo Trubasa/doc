@@ -1,12 +1,12 @@
 # about my repository
-关于我的项目的说明
-> 基于vue、element-ui的项目
 
-### 项目描述
+## 基于vue、element-ui的项目
+
+- ### 项目描述
 
 ![项目描述](https://trubasa.github.io/doc/image/explain.png)
 
-### 如何使用
+- ### 如何使用
 
 查看example里的demo可快速掌握如何使用组件,这里以vue-picture-manager为例
 
