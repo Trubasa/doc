@@ -2,6 +2,8 @@
 
 ## 基于vue、element-ui的项目
 
+> 商品参数编辑[vue-good-param](https://github.com/Trubasa/vue-good-param)
+
 - ### 项目描述
 
 ![项目描述](https://trubasa.github.io/doc/image/explain.png)
