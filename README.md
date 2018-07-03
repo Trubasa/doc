@@ -46,7 +46,7 @@
 ```
 > js初始化vue
 
-初始化Vue，__el__为初始化的标签对象，__data__里为vue实例的数据，__method__存放Vue实例的方法
+初始化Vue，**el**为初始化的标签对象，**data**里为vue实例的数据，**method**存放Vue实例的方法
 
 以下面代码为例，可使用==app.isShow=true ==直接修改Vue实例里的数据，也可==app.showPicManager()==调用app实例里的方法，
 ==app.$refs.pictureManager.show()== 可调用到组件实例里的方法
