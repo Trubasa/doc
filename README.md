@@ -12,7 +12,7 @@
 
 ![项目描述](https://trubasa.github.io/doc/image/explain.png)
 
-- ### 如何使用
+- ### 如何使用（普通页面引用）
 
 查看example里的demo可快速掌握如何使用组件,这里以vue-picture-manager为例
 
@@ -90,3 +90,21 @@ var app=new Vue({
     }
   })
 ```
+- ### 如何使用（vue脚手架导入）
+
+> 下载
+
+上面提及已有的插件均可通过npm工具下载，以vue-picture-mananger为例：
+
+npm install vue-picture-mananger --save
+
+> 引入
+
+```javascript
+import vue-picture-mananger from 'vue-picture-mananger'
+Vue.use(vue-picture-mananger)
+
+```
+
+
+
