@@ -50,7 +50,7 @@
 
 以下面代码为例，可使用app.isShow=true 直接修改Vue实例里的数据，也可app.showPicManager调用app实例里的方法，
 app.$refs.pictureManager.show() 可调用到组件实例里的方法
-```html
+```javascript
 var app=new Vue({
     el:"#app",
     data:function () {
