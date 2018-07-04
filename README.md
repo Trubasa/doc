@@ -60,14 +60,17 @@
 var app=new Vue({
     el:"#app",
     data:function () {
-      return {
+      return {  //vue实例的数据
         uploadPath:'http://localhost:8088/smallappM/vender/goodsInfo/uploadImg',
         selectedList: [],
         isShow: false,
         imgList: []
       }
     },
-    methods: {
+	mounted:function(){ //vue实例准备就绪的回调
+		
+	},
+    methods: { //vue实例的方法
       deleteHandler(url){
         //删除图片的回调
       },
@@ -80,7 +83,7 @@ var app=new Vue({
       },
       showPicManager() {
           var that = this;
-          this.$refs.pictureManager.show({
+          this.$refs.pictureManager.show({  //存在于组件里的方法，可通过组件的ref调用
             defaultUrlList: [],  //默认选中的图片的地址数组
             ensureFun: function (res) {  //选中图片后点击'确定'的回调，返回选中的图片数组
               that.selectedList = res
